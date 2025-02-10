@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ccfun\\OneDrive - Sheridan College\\Documents\\GitHub\\Rope\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\",
+  "WorkspaceRootPath": "C:\\Users\\fungcha\\Documents\\GitHub\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ccfun\\OneDrive - Sheridan College\\Documents\\GitHub\\Rope\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\Assets\\Physics\\BasicController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Physics\\BasicController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9C492E34-30DA-1B5A-40CD-B863C8A51AF2}|Assembly-CSharp.csproj|c:\\users\\fungcha\\documents\\github\\untitledkitchengame\\untitledkitchengame\\game\\untitledkitchengame\\assets\\physics\\basiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9C492E34-30DA-1B5A-40CD-B863C8A51AF2}|Assembly-CSharp.csproj|solutionrelative:assets\\physics\\basiccontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +14,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BasicController.cs",
-              "DocumentMoniker": "C:\\Users\\ccfun\\OneDrive - Sheridan College\\Documents\\GitHub\\Rope\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\Assets\\Physics\\BasicController.cs",
+              "DocumentMoniker": "C:\\Users\\fungcha\\Documents\\GitHub\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\Assets\\Physics\\BasicController.cs",
               "RelativeDocumentMoniker": "Assets\\Physics\\BasicController.cs",
-              "ToolTip": "C:\\Users\\ccfun\\OneDrive - Sheridan College\\Documents\\GitHub\\Rope\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\Assets\\Physics\\BasicController.cs",
+              "ToolTip": "C:\\Users\\fungcha\\Documents\\GitHub\\UntitledKitchenGame\\UntitledKitchenGame\\Game\\UntitledKitchenGame\\Assets\\Physics\\BasicController.cs",
               "RelativeToolTip": "Assets\\Physics\\BasicController.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAowB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-10T00:02:34.271Z",
               "EditorCaption": ""
