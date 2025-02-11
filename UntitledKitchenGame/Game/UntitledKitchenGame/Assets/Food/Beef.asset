@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a9c78b14d8de0941837aba74387f47c, type: 3}
+  m_Name: Beef
+  m_EditorClassIdentifier: 
+  displayName: Beef
+  displayImage: {fileID: 21300000, guid: c3696dd0b0c419f4294acd5df329de59, type: 3}
+  mesh: {fileID: 0}
+  type: 1
+  pointValue: 10
+  rarity: 70
+  stages: 1
