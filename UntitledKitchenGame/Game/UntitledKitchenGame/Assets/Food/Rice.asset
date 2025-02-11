@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Rice
   m_EditorClassIdentifier: 
   displayName: Rice
+  displayImage: {fileID: 21300000, guid: ebc916d5dbb6ffb4fa035c45c132062d, type: 3}
   mesh: {fileID: 0}
   type: 3
   pointValue: 10

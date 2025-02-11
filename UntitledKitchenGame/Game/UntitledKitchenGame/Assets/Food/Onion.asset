@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Onion
   m_EditorClassIdentifier: 
   displayName: Onion
+  displayImage: {fileID: 21300000, guid: 7c3402a1f19a58c4293e47017e2ea9a6, type: 3}
   mesh: {fileID: 0}
   type: 2
   pointValue: 10

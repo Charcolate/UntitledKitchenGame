@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using static UnityEditor.Progress;
 
 public class OrderGenerator : MonoBehaviour
@@ -11,6 +12,7 @@ public class OrderGenerator : MonoBehaviour
     //for now we will make this able to set the UI elements to their respective texts.
     public Canvas orderCanvas;
     public List<TextMeshProUGUI> orderText;
+    public List<Image> orderImages;
 
     public ItemCollection itemDatabase;
 
@@ -27,6 +29,10 @@ public class OrderGenerator : MonoBehaviour
         Veggie,
         Fish
     }
+    public void Start()
+    {
+        GenerateOrder();
+    }
 
     public void GenerateOrder()
     {
@@ -37,15 +43,22 @@ public class OrderGenerator : MonoBehaviour
     [ContextMenu("Populate UI")]
     void PopulateUI()
     {
-        if (orderCanvas == null || orderText == null) 
+        if (orderCanvas == null || orderText == null || orderImages ==null) 
         { 
-        orderCanvas = this.GetComponentInChildren<Canvas>();
-        TextMeshProUGUI[] tempList = this.GetComponentsInChildren<TextMeshProUGUI>();
+            orderCanvas = this.GetComponentInChildren<Canvas>();
+            Image[] tempImageList = this.GetComponentsInChildren<Image>();
+            for (int i = 0; i < itemMax; i++)
+            {
+                orderImages.Add(tempImageList[i]);
+            }
+            TextMeshProUGUI[] tempList = this.GetComponentsInChildren<TextMeshProUGUI>();
 
             for (int i = 0; i < itemMax; i++)
             {
                 orderText.Add(tempList[i]);
             }
+
+            
         }
         
         for(int i = 0; i < orderText.Count; i++)
@@ -54,6 +67,16 @@ public class OrderGenerator : MonoBehaviour
             else { orderText[i].gameObject.SetActive(true); 
                 orderText[i].text = foodItems[i].displayName; }
             
+        }
+        for (int i = 0; i < orderImages.Count; i++)
+        {
+            if (foodItems[i] == null) { orderImages[i].gameObject.SetActive(false); }
+            else
+            {
+                orderImages[i].gameObject.SetActive(true);
+                orderImages[i].sprite = foodItems[i].displayImage;
+            }
+
         }
     }
     // Start is called before the first frame update

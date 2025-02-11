@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Beef
   m_EditorClassIdentifier: 
   displayName: Beef
+  displayImage: {fileID: 21300000, guid: c3696dd0b0c419f4294acd5df329de59, type: 3}
   mesh: {fileID: 0}
   type: 1
   pointValue: 10

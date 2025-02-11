@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Salmon
   m_EditorClassIdentifier: 
   displayName: Salmon
+  displayImage: {fileID: 21300000, guid: a67473c38715ab34dba1f597dfa68223, type: 3}
   mesh: {fileID: 0}
   type: 4
   pointValue: 10

@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Lettuce
   m_EditorClassIdentifier: 
   displayName: Lettuce
+  displayImage: {fileID: 21300000, guid: 2ab21cfc22da69344a7a8adf30040343, type: 3}
   mesh: {fileID: 0}
   type: 2
   pointValue: 10

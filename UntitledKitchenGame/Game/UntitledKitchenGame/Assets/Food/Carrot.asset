@@ -13,6 +13,7 @@ MonoBehaviour:
   m_Name: Carrot
   m_EditorClassIdentifier: 
   displayName: Carrot
+  displayImage: {fileID: 21300000, guid: 311fe47b89e08fc47921d35aeb7cb078, type: 3}
   mesh: {fileID: 0}
   type: 2
   pointValue: 10
